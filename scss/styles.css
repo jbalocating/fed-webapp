@@ -1,0 +1,99 @@
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+	display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.readMe {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+}
+
+.paragraphStyle {
+	padding-left:12%;
+	padding-right:30%;
+}
+
+@import "http://fonts.googleapis.com/css?family=Raleway";
+/*----------------------------------------------
+CSS settings for HTML div Exact Center
+------------------------------------------------*/
+#abc {
+	width:100%;
+	height:100%;
+	opacity:.95;
+	top:0;
+	left:0;
+	display:none;
+	position:fixed;
+	background-color:#313131;
+	overflow:auto
+}
+form {
+	max-width:300px;
+	min-width:250px;
+	padding:10px 50px;
+	border:2px solid gray;
+	border-radius:10px;
+	font-family:raleway;
+	background-color:#fff
+}
+
+span {
+	color:red;
+	font-weight:700
+}
+
+
+
